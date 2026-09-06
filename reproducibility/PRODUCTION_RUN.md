@@ -1,6 +1,6 @@
 # Production run 5829918
 
-This repository is the public-clean code snapshot corresponding to the completed full production run `5829918` on ULHPC Iris.
+This repository is the public-clean code snapshot corresponding to the completed full production run `5829918` on GPU cluster.
 
 - Master seed: `20260905`
 - Python: `3.10.17`
