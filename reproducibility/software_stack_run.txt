@@ -1,0 +1,16 @@
+Python==3.10.17
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+torchaudio==2.6.0+cu118
+transformers==4.57.6
+huggingface_hub==0.36.2
+accelerate==1.13.0
+safetensors==0.8.0
+tokenizers==0.22.2
+numpy==2.2.6
+pandas==2.2.3
+matplotlib==3.10.1
+packaging==26.3
+pytest==9.0.3
+NVIDIA_driver==580.159.04
+GPU==Tesla_V100-SXM2-32GB_x4
