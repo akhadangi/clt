@@ -214,16 +214,6 @@ cltllm/
   report.py                paper-ready summaries and figures
 ```
 
-## Data and model weights
-
-Do not commit Hugging Face model snapshots, cache directories, access tokens, or generated run directories to GitHub. `.gitignore` excludes the common locations and large weight formats.
-
-For the paper's public reproducibility package, a practical split is:
-
-- GitHub repository: code, configs, prompts, tests, documentation.
-- GitHub Release or archival repository: `clt_llm_results_5829918.tar.gz`.
-- Hugging Face: model weights fetched from their original repositories at the pinned revisions.
-
 ## Interpretation boundary
 
 This software measures causal organization in known computational systems. It operationalizes distinctions relevant to CLT-I. The outputs do not demonstrate consciousness, subjectivity, sentience, or phenomenality in any tested model. CLT-II requires an independent philosophical and empirical argument.
