@@ -1,0 +1,50 @@
+{
+  "gemma3_4b_it": {
+    "repo": "google/gemma-3-4b-it",
+    "revision": "093f9f388b31de276ce2de164bdc2081324b9767"
+  },
+  "gemma3_4b_pt": {
+    "repo": "google/gemma-3-4b-pt",
+    "revision": "cc012e0a6d0787b4adcc0fa2c4da74402494554d"
+  },
+  "llama32_3b_base": {
+    "repo": "meta-llama/Llama-3.2-3B",
+    "revision": "13afe5124825b4f3751f836b40dafda64c1ed062"
+  },
+  "llama32_3b_instruct": {
+    "repo": "meta-llama/Llama-3.2-3B-Instruct",
+    "revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95"
+  },
+  "olmo2_7b_base": {
+    "repo": "allenai/OLMo-2-1124-7B",
+    "revision": "7df9a82518afdecae4e8c026b27adccc8c1f0032"
+  },
+  "olmo2_7b_dpo": {
+    "repo": "allenai/OLMo-2-1124-7B-DPO",
+    "revision": "e34ea60adff2e575f4fe7569eaffd1b28509b6fd"
+  },
+  "olmo2_7b_instruct": {
+    "repo": "allenai/OLMo-2-1124-7B-Instruct",
+    "revision": "470b1fba1ae01581f270116362ee4aa1b97f4c84"
+  },
+  "olmo2_7b_sft": {
+    "repo": "allenai/OLMo-2-1124-7B-SFT",
+    "revision": "1de02c0175118a9de5854aec80a1f970e701e928"
+  },
+  "phi4_mini_instruct": {
+    "repo": "microsoft/Phi-4-mini-instruct",
+    "revision": "cfbefacb99257ffa30c83adab238a50856ac3083"
+  },
+  "qwen3_4b_base": {
+    "repo": "Qwen/Qwen3-4B-Base",
+    "revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539"
+  },
+  "qwen3_4b_instruct": {
+    "repo": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c"
+  },
+  "zamba2_1p2b_base": {
+    "repo": "Zyphra/Zamba2-1.2B",
+    "revision": "6b05bf29d1bb4ca71a36d12f7da4d3120dcde7fe"
+  }
+}
