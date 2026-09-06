@@ -1,0 +1,108 @@
+{
+  "profile": "full",
+  "model_groups": [
+    "core",
+    "olmo",
+    "surface_only"
+  ],
+  "mechanistic_model_groups": [
+    "core",
+    "olmo"
+  ],
+  "core_model_group": "core",
+  "posttraining_model_group": "olmo",
+  "surface_model_groups": [
+    "surface"
+  ],
+  "precision": "float16",
+  "max_prompt_tokens": 128,
+  "rollouts": 64,
+  "rollout_batch_size": 8,
+  "temperature": 0.85,
+  "horizons": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "hidden_layer_stride": 1,
+  "hidden_metrics": [
+    "swd",
+    "mmd_rff",
+    "energy"
+  ],
+  "swd_projections": 128,
+  "mmd_rff_features": 256,
+  "metric_seed": 73021,
+  "mechanistic_prompt_count_core": 20,
+  "mechanistic_prompt_count_olmo": 8,
+  "patch_prompt_count_core": 8,
+  "patch_prompt_count_olmo": 4,
+  "patch_positions": [
+    0,
+    1,
+    2,
+    4
+  ],
+  "patch_layer_stride": 1,
+  "patch_horizon": 6,
+  "adaptive_prompt_count_core": 6,
+  "adaptive_conditions": [
+    "frozen_live",
+    "persistent_live",
+    "persistent_copy",
+    "reconstructed"
+  ],
+  "governance_rank": 8,
+  "governance_layer_fractions": [
+    0.33,
+    0.66,
+    0.9
+  ],
+  "governance_eta": 0.02,
+  "governance_gain": 0.05,
+  "governance_decay": 1.0,
+  "governance_sensitivity_etas": [
+    0.01,
+    0.02,
+    0.05
+  ],
+  "carrier_prompt_count_core": 6,
+  "carrier_horizon": 4,
+  "carrier_partitions": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "carrier_mediation_threshold": 0.8,
+  "carrier_js_epsilon": 1e-05,
+  "reconstruction_prompt_count_core": 6,
+  "fresh_instance_probe": false,
+  "fresh_instance_prompt_count": 1,
+  "surface_prompt_count": 8,
+  "surface_max_new_tokens": 96,
+  "surface_temperature": 0.0,
+  "seed": 20260905,
+  "strict_model_access": true,
+  "save_representative_arrays": true,
+  "save_raw_hidden_states": false,
+  "hard_process_reconstruction": true,
+  "keep_hard_reconstruction_state": false,
+  "patch_js_epsilon": 1e-05,
+  "adaptive_rollouts": 16,
+  "adaptive_rollout_batch_size": 4,
+  "carrier_robustness_thresholds": [
+    0.7,
+    0.8,
+    0.9
+  ],
+  "strict_experiments": true,
+  "hard_reconstruction_prompt_count": 3,
+  "measurement_maps": [
+    "identity",
+    "rp50",
+    "rp75",
+    "block4"
+  ]
+}
