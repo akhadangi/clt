@@ -6,16 +6,6 @@ This repository implements the CLT-I causal audit on open-weight language models
 
 The computational programme concerns **CLT-I bearer individuation**. Hidden-state divergence, activation patching, reconstruction, or generated first-person language should not be interpreted as evidence of phenomenality. CLT-II remains a separate metaphysical conjecture.
 
-## Repository status
-
-The repository is based on the code snapshot used for the completed full production run `5829918` on ULHPC Iris. All 12 selected model entries completed successfully. Exact model revisions and the successful software environment are recorded under [`reproducibility/`](reproducibility/).
-
-The full result archive is intentionally kept outside the source tree. For archival release, attach `clt_llm_results_5829918.tar.gz` to a GitHub Release or deposit it in Zenodo/OSF and link the DOI from this README. Its SHA-256 is:
-
-```text
-5912e1dce900898315640f910b31eaa81d035a6eed338096c206780e4940cd06
-```
-
 ## Scientific design
 
 The suite keeps several causal questions separate.
@@ -51,8 +41,6 @@ The suite keeps several causal questions separate.
 - `google/gemma-3-4b-it`
 - `microsoft/Phi-4-mini-instruct`
 - `allenai/OLMo-2-1124-7B-Instruct`
-
-Exact Hugging Face commit revisions from the production run are in [`reproducibility/model_revisions_run_5829918.json`](reproducibility/model_revisions_run_5829918.json).
 
 ## Production numerical safeguards
 
@@ -93,15 +81,11 @@ If PyTorch is already installed with a site-appropriate CUDA build:
 python -m pip install -r requirements.txt
 ```
 
-The publication-relevant software stack from run `5829918` is preserved in [`reproducibility/software_stack_run_5829918.txt`](reproducibility/software_stack_run_5829918.txt).
-
 ### Hardware
 
-The full configuration was validated on one ULHPC Iris node with:
+The full configuration was validated on one GPU node with:
 
 - 4 x NVIDIA Tesla V100-SXM2 32 GB
-- 7 CPU cores per GPU
-- 256 GB host RAM
 
 The Qwen-only smoke profile can run on a 16 GB V100. The current five-model pilot includes Gemma in FP32 and therefore should also use 32 GB V100-class GPUs unless the pilot configuration is explicitly changed.
 
