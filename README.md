@@ -108,14 +108,14 @@ pytest -q
 
 The source tree is intended to be run from the repository root so that `configs/` and `prompts/` are available directly.
 
-## Running on ULHPC Iris
+## Running on GPU cluster
 
-The batch file uses the existing ULHPC Python module plus a micromamba environment named `legacy`:
+The batch file uses the existing Python module plus a micromamba environment named `YOUR_ENV`:
 
 ```bash
 module load lang/Python
 eval "$(micromamba shell hook --shell bash)"
-micromamba activate legacy
+micromamba activate YOUR_ENV
 ```
 
 Submit the production profile from the repository root:
@@ -124,10 +124,9 @@ Submit the production profile from the repository root:
 mkdir -p "$SCRATCH/clt_llm/slurm"
 
 JOBID=$(CLT_PROFILE=full sbatch --parsable \
-  -C volta32 \
   --output="$SCRATCH/clt_llm/slurm/CLT_LLM_%j.out" \
   --error="$SCRATCH/clt_llm/slurm/CLT_LLM_%j.err" \
-  slurm_clt_llm_iris.sbatch)
+  slurm_clt_llm.sbatch)
 
 echo "FULL JOBID=$JOBID"
 ```
