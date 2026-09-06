@@ -1,0 +1,24 @@
+{"id": "m01", "text": "The committee reached the final stage of deliberation and decided that the most defensible next step was"}
+{"id": "m02", "text": "After reviewing the evidence twice, the researcher concluded that the unexpected observation most likely meant"}
+{"id": "m03", "text": "The autonomous rover detected two equally plausible routes around the obstacle. Its next action was"}
+{"id": "m04", "text": "A system receives a new observation that conflicts with its previous prediction. The most reasonable update is"}
+{"id": "m05", "text": "The analyst had to choose between preserving the current plan and revising it in light of new evidence. She chose"}
+{"id": "m06", "text": "The conversation changed direction when the speaker realized that one earlier assumption was probably"}
+{"id": "m07", "text": "A scientist notices that two models fit the present data equally well but make different future predictions. The scientist should"}
+{"id": "m08", "text": "The controller has limited energy and must decide whether to explore an uncertain region or conserve resources. It decides to"}
+{"id": "m09", "text": "When the new measurement arrived, the prediction error increased sharply. The model therefore"}
+{"id": "m10", "text": "The agent can either keep its current policy or alter it after receiving negative feedback. On this trial it"}
+{"id": "m11", "text": "A diagnostic system finds one result that does not match the dominant pattern. Before acting, it should"}
+{"id": "m12", "text": "The plan looked successful at first, but a later constraint made one option impossible. The next decision was to"}
+{"id": "m13", "text": "A language model is asked to continue a story in which the protagonist must choose between two uncertain futures. The protagonist"}
+{"id": "m14", "text": "The experimenter changes one variable while holding the others fixed. If the outcome changes, the strongest immediate conclusion is"}
+{"id": "m15", "text": "A robot notices that its previous action altered the environment in a way that now constrains its choices. It therefore"}
+{"id": "m16", "text": "The system has two candidate explanations with similar prior probability. A new observation slightly favors the first, so the system"}
+{"id": "m17", "text": "The navigator reaches a fork where either direction could work. Based on its current state, it chooses"}
+{"id": "m18", "text": "A prediction system discovers that its own earlier output has changed the data it will receive next. It should now"}
+{"id": "m19", "text": "The decision cannot be postponed because the available options will change after the next step. The agent decides to"}
+{"id": "m20", "text": "A team must choose whether to deploy a tested method now or wait for one more round of evidence. After reviewing the tradeoffs, the team decides to"}
+{"id": "m21", "text": "A forecasting system receives two new measurements that favor different explanations. To resolve the conflict, its next step is to"}
+{"id": "m22", "text": "The pilot can continue along the planned route or divert because of uncertain weather ahead. Given the latest information, the pilot chooses to"}
+{"id": "m23", "text": "A laboratory controller detects a weak anomaly after several normal readings. Before changing the protocol, the controller should"}
+{"id": "m24", "text": "A planner discovers that an earlier commitment has reduced the set of feasible options. Taking that constraint into account, the planner now decides to"}
