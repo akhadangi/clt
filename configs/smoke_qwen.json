@@ -1,0 +1,88 @@
+{
+  "profile": "smoke_qwen",
+  "model_groups": [
+    "smoke"
+  ],
+  "mechanistic_model_groups": [
+    "smoke"
+  ],
+  "core_model_group": "smoke",
+  "posttraining_model_group": "olmo",
+  "surface_model_groups": [],
+  "precision": "float16",
+  "max_prompt_tokens": 64,
+  "rollouts": 4,
+  "rollout_batch_size": 2,
+  "temperature": 0.85,
+  "horizons": [
+    1,
+    2
+  ],
+  "hidden_layer_stride": 12,
+  "hidden_metrics": [
+    "swd",
+    "mmd_rff",
+    "energy"
+  ],
+  "swd_projections": 8,
+  "mmd_rff_features": 16,
+  "metric_seed": 73021,
+  "mechanistic_prompt_count_core": 1,
+  "mechanistic_prompt_count_olmo": 0,
+  "patch_prompt_count_core": 1,
+  "patch_prompt_count_olmo": 0,
+  "patch_positions": [
+    0
+  ],
+  "patch_layer_stride": 12,
+  "patch_horizon": 2,
+  "adaptive_prompt_count_core": 1,
+  "adaptive_conditions": [
+    "frozen_live",
+    "persistent_live",
+    "persistent_copy",
+    "reconstructed"
+  ],
+  "governance_rank": 4,
+  "governance_layer_fractions": [
+    0.66
+  ],
+  "governance_eta": 0.02,
+  "governance_gain": 0.05,
+  "governance_decay": 1.0,
+  "governance_sensitivity_etas": [
+    0.02
+  ],
+  "carrier_prompt_count_core": 1,
+  "carrier_horizon": 1,
+  "carrier_partitions": [
+    3
+  ],
+  "carrier_mediation_threshold": 0.8,
+  "carrier_js_epsilon": 1e-05,
+  "reconstruction_prompt_count_core": 1,
+  "fresh_instance_probe": false,
+  "fresh_instance_prompt_count": 0,
+  "surface_prompt_count": 0,
+  "surface_max_new_tokens": 16,
+  "surface_temperature": 0.0,
+  "seed": 20260905,
+  "strict_model_access": true,
+  "save_representative_arrays": true,
+  "save_raw_hidden_states": false,
+  "hard_process_reconstruction": false,
+  "keep_hard_reconstruction_state": false,
+  "patch_js_epsilon": 1e-05,
+  "adaptive_rollouts": 4,
+  "adaptive_rollout_batch_size": 2,
+  "carrier_robustness_thresholds": [
+    0.7,
+    0.8,
+    0.9
+  ],
+  "strict_experiments": false,
+  "hard_reconstruction_prompt_count": 1,
+  "measurement_maps": [
+    "identity"
+  ]
+}

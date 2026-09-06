@@ -1,0 +1,137 @@
+{
+  "models": [
+    {
+      "key": "qwen3_4b_base",
+      "repo": "Qwen/Qwen3-4B-Base",
+      "groups": [
+        "core",
+        "mechanistic",
+        "smoke",
+        "pilot_core"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "phi4_mini_instruct",
+      "repo": "microsoft/Phi-4-mini-instruct",
+      "groups": [
+        "core",
+        "mechanistic",
+        "surface",
+        "pilot_core"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "llama32_3b_base",
+      "repo": "meta-llama/Llama-3.2-3B",
+      "groups": [
+        "core",
+        "mechanistic",
+        "pilot_core"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false,
+      "gated": true
+    },
+    {
+      "key": "gemma3_4b_pt",
+      "repo": "google/gemma-3-4b-pt",
+      "groups": [
+        "core",
+        "mechanistic",
+        "pilot_core"
+      ],
+      "loader": "gemma3_text",
+      "trust_remote_code": false,
+      "gated": true
+    },
+    {
+      "key": "olmo2_7b_base",
+      "repo": "allenai/OLMo-2-1124-7B",
+      "groups": [
+        "olmo",
+        "mechanistic"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "olmo2_7b_sft",
+      "repo": "allenai/OLMo-2-1124-7B-SFT",
+      "groups": [
+        "olmo",
+        "posttraining"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "olmo2_7b_dpo",
+      "repo": "allenai/OLMo-2-1124-7B-DPO",
+      "groups": [
+        "olmo",
+        "posttraining"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "olmo2_7b_instruct",
+      "repo": "allenai/OLMo-2-1124-7B-Instruct",
+      "groups": [
+        "olmo",
+        "posttraining",
+        "surface"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "qwen3_4b_instruct",
+      "repo": "Qwen/Qwen3-4B",
+      "groups": [
+        "surface_only",
+        "surface"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false
+    },
+    {
+      "key": "llama32_3b_instruct",
+      "repo": "meta-llama/Llama-3.2-3B-Instruct",
+      "groups": [
+        "surface_only",
+        "surface"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false,
+      "gated": true
+    },
+    {
+      "key": "gemma3_4b_it",
+      "repo": "google/gemma-3-4b-it",
+      "groups": [
+        "surface_only",
+        "surface"
+      ],
+      "loader": "gemma3_text",
+      "trust_remote_code": false,
+      "gated": true
+    },
+    {
+      "key": "zamba2_1p2b_base",
+      "repo": "Zyphra/Zamba2-1.2B",
+      "groups": [
+        "core",
+        "mechanistic",
+        "pilot_core"
+      ],
+      "loader": "causal_lm",
+      "trust_remote_code": false,
+      "family": "zamba2"
+    }
+  ]
+}
