@@ -98,7 +98,7 @@ The preparation stage resolves each selected model to an immutable Hugging Face 
 ## Installation and tests
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone https://github.com/akhadangi/clt.git
 cd clt-causal-liability-llm
 
 python -m pip install -e .
