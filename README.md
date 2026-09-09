@@ -1,6 +1,6 @@
 # CLT Open-Weight LLM Causal Audit Suite
 
-Code accompanying the Causal Liability Theory (CLT) computational programme in **“We Built a Mirror and Mistook It for a Mind: Causal Liability and the Fallacy of AI Consciousness.”**[https://arxiv.org/abs/2609.06715]
+Code accompanying the Causal Liability Theory (CLT) computational programme in [**We Built a Mirror and Mistook It for a Mind: Causal Liability and the Fallacy of AI Consciousness**](https://arxiv.org/abs/2609.06715)
 
 This repository implements the CLT-I causal audit on open-weight language models. It measures counterfactual persistence, recursive mediation, candidate causal-carrier recovery, reconstruction equivalence, and an endogenous writable governance-state intervention. It also produces a blinded Reverse Mirror stimulus corpus for a later human attribution study.
 
